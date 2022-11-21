@@ -12,11 +12,11 @@ Gimiau 23 dieną, tad gauname 23 + 33 = 56. Šis skaičius ASCII lentelėje atit
 
 ### Kodėl pirmi 32 ASCII kodai negali būti naudojami sekos kokybei koduoti?
 
-Negali, nes jie yra naudojami kompiuterių ir yra rezervuoti. Pvz.: 2 skaičių atitinka 'Teksto pradžios' simbolį, šis simbolis suprantamas tik kompiuteriams.
+Negali, nes jie yra naudojami kompiuterių ir yra rezervuoti. Pvz.: 2 ASCII skaičiaus simbolio negalim naudot, nes tai atitinka 'Teksto pradžios' simbolį, šis simbolis suprantamas tik kompiuteriams.
 
 ### Parašykite, kokią koduotę nustatėte ir kuo remiantis?
 
-Rašant skriptą, bei jo logiką, kur tikriname kokia koduotė yra naudojama, buvo naudojamasi šia lentele: 
+Rašant skriptą bei jo logiką, kur tikriname kokia koduotė yra naudojama, buvo naudojamasi šia lentele: 
 
 <pre>  <span style="color: purple">SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</span>.....................................................
   ..........................<span style="color: green">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</span>......................
@@ -45,12 +45,12 @@ Rašant skriptą, bei jo logiką, kur tikriname kokia koduotė yra naudojama, bu
  <span style="color: red">P - PacBio        Phred+33,  HiFi reads typically (0, 93)</span>
 </pre>
 
-Ir nustatėme, kad visi simboliai naudojami fastq yra iki 73-iojo simbolio, kas reišikia, kad galimi yra du variantai:
+Ir nustatėme, kad visi simboliai naudojami fastq faile yra iki 73-iojo simbolio, kas reišikia, kad galimi yra du variantai:
 
 * Sanger Phred+33
 * Illumina 1.8+ Phred+33
 
-Tuomet rankiniu būdu patikrinau ar yra kažkur naudojamas 'J' simbolis, nes jis yra vienintelis, kuris galima Illumina koduotėje, bet negalimas Sanger. Tokio simbolio nėra, tad galime teigti, kad naudojama yra Sanger Phred+33 koduotė.
+Tuomet rankiniu būdu patikrinau ar yra kažkur naudojamas 'J' simbolis, nes jis yra vienintelis, kuris galimas Illumina koduotėje, bet negalimas Sanger. Tokio simbolio nėra, tad galime teigti, kad naudojama yra Sanger Phred+33 koduotė.
 
 ### Pateikite grafiką, kurio y ašyje būtų read’ų skaičius, x ašyje - C/G nukletidų dalis read’o sekoje. Parašykite, koks „stambių“ pikų skaičius yra gautame grafike?
 
