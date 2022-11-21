@@ -59,7 +59,7 @@ Tuomet rankiniu būdu patikrinau ar yra kažkur naudojamas 'J' simbolis, nes jis
 „Stambių“ pikų skaičius yra 3:
 
 * Kai C/G nukleotidų dalis buvo 0.34
-* Kai C/G nukleotidų dalis buvo 0.54x
+* Kai C/G nukleotidų dalis buvo 0.54
 * Kai C/G nukleotidų dalis buvo 0.70
 
 ### Pateikite lentelę, kurioje būtų read’o id ir rasto mikroorganizmo rūšis
