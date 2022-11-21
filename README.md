@@ -54,4 +54,19 @@ Tuomet rankiniu būdu patikrinau ar yra kažkur naudojamas 'J' simbolis, nes jis
 
 ### Pateikite grafiką, kurio y ašyje būtų read’ų skaičius, x ašyje - C/G nukletidų dalis read’o sekoje. Parašykite, koks „stambių“ pikų skaičius yra gautame grafike?
 
-Text
+<img width="1439" alt="image" src="https://user-images.githubusercontent.com/50362698/202936984-2fac51dc-a794-4db7-bc6b-624139de7785.png">
+
+„Stambių“ pikų skaičius yra 3:
+
+* Kai C/G nukleotidų dalis buvo 0.34
+* Kai C/G nukleotidų dalis buvo 0.54x
+* Kai C/G nukleotidų dalis buvo 0.70
+
+### Pateikite lentelę, kurioje būtų read’o id ir rasto mikroorganizmo rūšis
+
+<img width="1439" alt="image" src="https://user-images.githubusercontent.com/50362698/202937192-389e47d9-0933-4daf-9029-e20ecce6bb87.png">
+
+
+### Kokių rūšių bakterijų buvo mėginyje?
+
+Escherichia coli, Thermus thermophilus, Staphylococcus aureus
