@@ -1,6 +1,6 @@
 # Bioinformatika 3 laboratorinis darbas
 
-### Apibūdinkite fastq formatą. (https://en.wikipedia.org/wiki/FASTQ_format). Kokia papildoma informacija pateikiam lyginant su FASTA formatu?
+### Apibūdinkite fastq formatą. Kokia papildoma informacija pateikiam lyginant su FASTA formatu?
 
 FASTQ yra tekstiniu pagrindu veikiantis formatas, kuris naudojamas saugoti sekai (paprastai - nukleotidų sekai) ir ją atitinkantiems kokybiniams įverčiams. 
 
